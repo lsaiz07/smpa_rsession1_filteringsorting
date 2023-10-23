@@ -2,6 +2,7 @@
 ## It's not too scary... ##
 
 
+
 # R: developed by data analysts, for data analysts
 
 # 1) First off, what's the deal with RStudio? What am I looking at - how does it work. Let's take a tour together.
@@ -41,15 +42,15 @@ c("Billy","Sallie")
 #Other languages call them variables, R calls them objects...but they're the same idea
 #Assigning something a name, so that you can use it
 
-myobject <- 1
+myobject <- 10
 
 #now I can tell R to give me the value of myobject by referring to it by its name
-myobject
+myobject + 5
 
 #let's try another
 mynames <- c("Billy","Sallie","Tony")
 
-mynames
+mynames [3]
 
 
 # What's a VECTOR?  
